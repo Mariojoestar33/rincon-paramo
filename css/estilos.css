@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezado_footer {
+    font-size: large;
+    font-weight: bold;
+}
+
+.presentacion {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+
+.footer {
+    text-align: center;
+    background-color: lightslategray;
+    font-size: small;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0px;
+    padding: 60px;
+}
+
+#footer_content_terminos {
+    font-size: small;
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+#footer_content_redes {
+    font-size: small;
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+#grayfooter {
+    background-color: #808080;
+    padding: 10px;
+    margin: 0px;
+}
