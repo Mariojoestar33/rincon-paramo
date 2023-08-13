@@ -1,5 +1,54 @@
-body {
+* {
     font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    text-align: center;
+}
+
+#div-navcontainer {
+    border: #000000 1px solid;
+    display: flex;
+    padding: 0px;
+}
+
+.div-nombre {
+    border: #000000 1px solid;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.div-opciones {
+    border: #000000 1px solid;
+}
+
+.navbar::before, .navbar::after {
+    content: "";
+    display: table;
+}
+
+.navbar::after {
+    clear: both;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 15px;
+    float: left;
+    box-shadow: 1px 0 0 #444;
+    position: relative;
+}
+
+.navbar li:hover {
+    background: #f1eeee;
+}
+
+#agrupar {
+    width: auto;
+    margin: 15px;
+    text-align: left;
 }
 
 .encabezado_footer {
@@ -12,6 +61,8 @@ body {
     font-weight: bold;
     text-align: center;
     color: #000000;
+    margin: auto;
+    border: #000000 1px solid;
 }
 
 .footer {
@@ -22,6 +73,7 @@ body {
     color: #ffffff;
     margin: 0px;
     padding: 60px;
+    border: #000000 1px solid;
 }
 
 #footer_content_terminos {
@@ -44,4 +96,5 @@ body {
     background-color: #808080;
     padding: 10px;
     margin: 0px;
+    border: #000000 1px solid;
 }

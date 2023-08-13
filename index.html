@@ -13,74 +13,86 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </head>
-    <body>
-    <!--<header>
-            <figure><img src="imagenes/favicon.png"></figure>
-            <h1>Rincon Paramo</h1>
-        </header> -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="imagenes/favicon.png">Rincon Paramo</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="galeria.html">Galería</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="conocenos.html">Conocenos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="login.html">Iniciar sesion</a>
-                        </li>
-                    </ul>
+    <div id="agrupar">
+        <body>
+            <header class="cabecera">
+                <div id="div-navcontainer">
+                    <div class="div-nombre">
+                        <a href="index.html">
+                            <img src="imagenes/favicon.png" alt="Rincon Paramo" id="logo">
+                            <h1>
+                                <span>Rincon Paramo</span>
+                            </h1>
+                        </a> 
+                    </div>
+                    <div class="div-opciones">
+                        <nav class="navbar">
+                            <ul>
+                                <li>
+                                    <a href="index.html">Inicio</a>
+                                </li>
+                                <li>
+                                    <a href="#">Categorias</a>
+                                    <ul>
+                                        <li>
+                                            <a href="hombre.html">Hombre</a>
+                                        </li>
+                                        <li>
+                                            <a href="mujer.html">Mujer</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="papeleria.html">Papeleria</a>
+                                </li>
+                                <li>
+                                    <a href="crochet.html">Crochet</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
+            </header>
+            <div class="presentacion">
+                <article>
+                    <header>
+                        <hgroup>
+                            <h1>Rincon Paramo</h1>
+                            <h2>El rincon de Paramo</h2>
+                        </hgroup>
+                    </header>
+                    <p>El mejor bazar de ropa de todo México</p>
+                    <figure>
+                        <img src="imagenes/paramo.jpg" alt="Rincon Paramo">
+                        <figcaption>Rincon Paramo</figcaption>
+                    </figure>
+                </article>
             </div>
-        </nav>
-        <div class="presentacion">
-            <article>
-                <header>
-                    <hgroup>
-                        <h1>Rincon Paramo</h1>
-                        <h2>El rincon de Paramo</h2>
-                    </hgroup>
-                </header>
-                <p>El mejor bazar de ropa de todo México</p>
-                <figure>
-                    <img src="imagenes/paramo.jpg" alt="Rincon Paramo">
-                    <figcaption>Rincon Paramo</figcaption>
-                </figure>
-            </article>
-        </div>
-        <footer id="grayfooter">
-            <div id="footer_content_terminos">
-                <p class="encabezado_footer">Terminos y Condiciones</p>
-                <div class="lista_terminos">
-                    <ul>
-                        <li><a href="#">Terminos y Condiciones</a></li>
-                        <li><a href="#">Politica de Privacidad</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
+            <footer id="grayfooter">
+                <div id="footer_content_terminos">
+                    <p class="encabezado_footer">Terminos y Condiciones</p>
+                    <div class="lista_terminos">
+                        <ul>
+                            <li><a href="#">Terminos y Condiciones</a></li>
+                            <li><a href="#">Politica de Privacidad</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div id="footer_content_redes">
-                <p class="encabezado_footer">Redes Sociales</p>
-                <div class="lista_redes">
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Instagram</a></li>
-                    </ul>
-            </div>
-            <div class="footer">
-                <small>Todos los derechos reservados &copy; 2023</small>
-            </div>
-        </footer>
-    </body>
+                <div id="footer_content_redes">
+                    <p class="encabezado_footer">Redes Sociales</p>
+                    <div class="lista_redes">
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer">
+                    <small>Todos los derechos reservados &copy; 2023</small>
+                </div>
+            </footer>
+        </body>
+    </div>
 </html>
