@@ -1,5 +1,7 @@
 'use strict';
 
+//Method to move the images into the slider by pressing the button
+
 const grande = document.querySelector('.slider-box')
 const punto = document.querySelectorAll('.punto') 
 

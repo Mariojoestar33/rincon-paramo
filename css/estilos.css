@@ -9,43 +9,62 @@ body {
     text-align: center;
 }
 
-.div-navbar {
+.agrupar {
+    width: auto;
+    margin: 25px;
     border: #000000 1px solid;
 }
 
 /*Start of Navbar styles*/
 
+header {
+    display: flex;
+    justify-content: center;
+    border: #000000 1px solid;
+}
+
 .navbar{
+    width: 100%;
 	max-width: 900px;
 	background-color: #ffffff;
 	font-size: 20px;
-	
+    justify-content: center;
+    align-items: center;
+    border: #000000 1px solid;
 }
+
 .menu-horizontal{
+    border: #000000 1px solid;
 	list-style: none;
 	display: flex;
-	justify-content: space-around;
+    align-items: center;
+    justify-content: center;
 }
+
 .menu-horizontal > li > a{
-	display: block;
-	padding: 15px 20px;
+	padding: 1em;
 	color: rgb(2, 0, 0);
 	text-decoration: none;
+    border: #000000 1px solid;
 }
+
 .menu-horizontal > li:hover{
 	background-color: rgb(218, 214, 214);
 }
+
 .menu-vertical{
-	position: absolute;
-	display: none;
+    border: #000000 1px solid;
+    display: none;
+    padding-left: 25px;
+    padding-right: 20px;
 	list-style: none;
-	width: 200px;
+    margin: 0;
 	background-color: rgb(218, 214, 214);
 }
 
 .menu-horizontal li:hover .menu-vertical{
 	display: block;
-    position: relative;
+    position: absolute;
 }
 
 .menu-vertical li:hover{
@@ -56,7 +75,7 @@ body {
 	display: block;
 	color: rgb(0, 0, 0);
 	text-decoration: none;
-	padding: 15px 15px 15px 20px;
+    border: #000000 1px solid;
 }
 
 /*End of Navbar styles*/
@@ -71,7 +90,6 @@ body {
 .carrousel {
     width: 100%;;
     max-width: 120em;
-    border: #000000 1px solid;
     overflow-x: hidden;
 }
 
@@ -81,7 +99,6 @@ body {
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
-
     transition: all .5s ease;
     transform: translateX(0%);
 }
@@ -98,6 +115,7 @@ body {
     justify-content: center;
     align-items: center;
     list-style: none;
+    margin: 0;
 }
 
 .punto {
@@ -106,65 +124,11 @@ body {
     margin: 5px;
     border-radius: 50%;
     border: #000000 1px solid;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .punto.active {
-    background-color: rgb(97, 19, 0);
+    background-color: rgb(0, 0, 0);
 }
 
 /*End of Carrousel*/
-
-#agrupar {
-    width: auto;
-    margin: 15px;
-    text-align: left;
-}
-
-.encabezado_footer {
-    font-size: large;
-    font-weight: bold;
-}
-
-.presentacion {
-    font-size: x-large;
-    font-weight: bold;
-    text-align: center;
-    color: #000000;
-    margin: auto;
-    border: #000000 1px solid;
-}
-
-.footer {
-    text-align: center;
-    background-color: lightslategray;
-    font-size: small;
-    font-weight: bold;
-    color: #ffffff;
-    margin: 0px;
-    padding: 60px;
-    border: #000000 1px solid;
-}
-
-#footer_content_terminos {
-    font-size: small;
-    font-weight: bold;
-    margin: 0px;
-    padding: 10px;
-    border: 1px black solid;
-}
-
-#footer_content_redes {
-    font-size: small;
-    font-weight: bold;
-    margin: 0px;
-    padding: 10px;
-    border: 1px black solid;
-}
-
-#grayfooter {
-    background-color: #808080;
-    padding: 10px;
-    margin: 0px;
-    border: #000000 1px solid;
-}
