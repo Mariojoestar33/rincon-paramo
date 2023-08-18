@@ -12,6 +12,7 @@ body {
 .agrupar {
     width: auto;
     margin: 25px;
+    border: #000000 1px solid;
 }
 
 /*Start of Navbar styles*/
@@ -19,6 +20,7 @@ body {
 header {
     display: flex;
     justify-content: center;
+    border: #000000 1px solid;
 }
 
 .navbar{
@@ -40,7 +42,7 @@ header {
 
 .menu-horizontal > li > a{
 	padding: 1em;
-	color:#b6af6e;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -68,7 +70,7 @@ header {
 
 .menu-vertical li a{
 	display: block;
-	color:#b6af6e;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -85,6 +87,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: #000000 1px solid;
 }
 
 .carrousel {
@@ -133,3 +136,58 @@ header {
 }
 
 /*End of Carrousel*/
+
+.div-compromiso {
+    padding: auto;
+    border: #000000 1px solid;
+}
+
+.div-compromiso > h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.compromiso {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna-envios {
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+}
+
+.columna-envios > h3 {
+    font-size: 25px;
+    text-align: center;;
+    color: #000000;
+}
+
+/*End of Compromisos*/
+
+footer {
+    border: #000000 1px solid;
+}
+
+.columnas {
+    border: #000000 1px solid;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.lista-footer {
+    border: #000000 1px solid;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+.div-terminos {
+    text-align: center;
+    font-size: small;
+    background-color: rgb(237, 243, 243);
+}
