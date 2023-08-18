@@ -12,7 +12,6 @@ body {
 .agrupar {
     width: auto;
     margin: 25px;
-    border: #000000 1px solid;
 }
 
 /*Start of Navbar styles*/
@@ -20,32 +19,29 @@ body {
 header {
     display: flex;
     justify-content: center;
-    border: #000000 1px solid;
 }
 
 .navbar{
     width: 100%;
 	max-width: 900px;
-	background-color: #ffffff;
 	font-size: 20px;
     justify-content: center;
     align-items: center;
-    border: #000000 1px solid;
+    border-top: #000000 1px solid;
 }
 
 .menu-horizontal{
-    border: #000000 1px solid;
 	list-style: none;
 	display: flex;
     align-items: center;
+    gap: 5px;
     justify-content: center;
 }
 
 .menu-horizontal > li > a{
 	padding: 1em;
-	color: rgb(2, 0, 0);
+	color:#b6af6e;
 	text-decoration: none;
-    border: #000000 1px solid;
 }
 
 .menu-horizontal > li:hover{
@@ -53,10 +49,9 @@ header {
 }
 
 .menu-vertical{
-    border: #000000 1px solid;
     display: none;
     padding-left: 25px;
-    padding-right: 20px;
+    padding-right: 22.5px;
 	list-style: none;
     margin: 0;
 	background-color: rgb(218, 214, 214);
@@ -73,9 +68,8 @@ header {
 
 .menu-vertical li a{
 	display: block;
-	color: rgb(0, 0, 0);
+	color:#b6af6e;
 	text-decoration: none;
-    border: #000000 1px solid;
 }
 
 /*End of Navbar styles*/
@@ -87,10 +81,17 @@ header {
     margin: auto;
 }
 
+.div-carrousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .carrousel {
-    width: 100%;;
-    max-width: 120em;
-    overflow-x: hidden;
+   /* width: 90%;*/
+   width: 95%;
+   max-width: 120em;
+   overflow-x: hidden;
 }
 
 .slider-box {
