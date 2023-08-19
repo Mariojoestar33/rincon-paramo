@@ -12,7 +12,6 @@ body {
 .agrupar {
     width: auto;
     margin: 25px;
-    border: #000000 1px solid;
 }
 
 /*Start of Navbar styles*/
@@ -20,10 +19,9 @@ body {
 header {
     display: flex;
     justify-content: center;
-    border: #000000 1px solid;
 }
 
-.navbar{
+.navbar {
     width: 100%;
 	max-width: 900px;
 	font-size: 20px;
@@ -32,7 +30,7 @@ header {
     border-top: #000000 1px solid;
 }
 
-.menu-horizontal{
+.menu-horizontal {
 	list-style: none;
 	display: flex;
     align-items: center;
@@ -40,17 +38,17 @@ header {
     justify-content: center;
 }
 
-.menu-horizontal > li > a{
+.menu-horizontal > li > a {
 	padding: 1em;
 	color: #000000;
 	text-decoration: none;
 }
 
-.menu-horizontal > li:hover{
+.menu-horizontal > li:hover {
 	background-color: rgb(218, 214, 214);
 }
 
-.menu-vertical{
+.menu-vertical {
     display: none;
     padding-left: 25px;
     padding-right: 22.5px;
@@ -59,16 +57,16 @@ header {
 	background-color: rgb(218, 214, 214);
 }
 
-.menu-horizontal li:hover .menu-vertical{
+.menu-horizontal li:hover .menu-vertical {
 	display: block;
     position: absolute;
 }
 
-.menu-vertical li:hover{
+.menu-vertical li:hover {
 	background-color: rgb(189, 183, 183);
 }
 
-.menu-vertical li a{
+.menu-vertical li a {
 	display: block;
 	color: #000000;
 	text-decoration: none;
@@ -87,7 +85,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: #000000 1px solid;
 }
 
 .carrousel {
@@ -139,7 +136,6 @@ header {
 
 .div-compromiso {
     padding: auto;
-    border: #000000 1px solid;
 }
 
 .div-compromiso > h2 {
@@ -167,19 +163,31 @@ header {
 
 /*End of Compromisos*/
 
-footer {
-    border: #000000 1px solid;
+.div-instagram {
+    margin-bottom: 50px;
 }
 
+.contenedor-instagram {
+    display: flex;
+    justify-content: center;
+    height: 380px;
+}
+
+.frame-instagram {
+    border: #000000 2px solid;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+/*End of instagram*/
+
 .columnas {
-    border: #000000 1px solid;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
 }
 
 .lista-footer {
-    border: #000000 1px solid;
     list-style: none;
     display: flex;
     justify-content: center;
