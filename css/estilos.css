@@ -12,6 +12,7 @@ body {
 .agrupar {
     width: auto;
     margin: 25px;
+    min-width: 600px;
 }
 
 /*Start of Navbar styles*/
