@@ -200,3 +200,12 @@ header {
     font-size: small;
     background-color: rgb(237, 243, 243);
 }
+
+.div-boot {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: #000000 2px solid;
+    border-radius: 10px;
+}
