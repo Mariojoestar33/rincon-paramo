@@ -177,7 +177,7 @@ header {
 .frame-instagram {
     border: #000000 2px solid;
     border-radius: 50px;
-    overflow: hidden;
+    box-shadow: #000000 5px 5px;
 }
 
 /*End of instagram*/
